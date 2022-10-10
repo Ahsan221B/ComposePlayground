@@ -115,7 +115,7 @@ fun Conversation(messages: List<Message>) {
     }
 }
 
-@Preview
+@Preview (widthDp = 320, heightDp = 480)
 @Composable
 fun PreviewConversation() {
     ComposePlaygroundTheme {
